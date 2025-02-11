@@ -1,0 +1,68 @@
+/* Navigation Bar */
+nav {
+    background-color: #1c9858;
+    overflow: hidden;
+}
+
+nav a {
+    float: center;
+    display: grid;
+    color: #090909;
+    text-align: center;
+    padding: 5px 5px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+nav a:hover {
+    background-color: #be8989;
+    color: black;
+}
+
+nav a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+body {
+    background-color: rgb(231, 219, 204); /* Replace with the actual background color from allAboutrae.css */
+}
+/* Header */
+header {
+    background-color: #1c9858;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 24px;
+}
+
+/* Main Content */
+main {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+/* Footer */
+footer {
+    background-color: #1c9858;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Utility Classes */
+.text-center {
+    text-align: center;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+
+.mb-20 {
+    margin-bottom: 20px;
+}
+  

@@ -1,0 +1,64 @@
+/* Navigation Bar */
+nav {
+    background-color: #1c9858;
+    overflow: hidden;
+}
+
+nav a {
+    float: center;
+    display: grid;
+    color: #090909;
+    text-align: center;
+    padding: 5px 5px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+nav a:hover {
+    background-color: #be8989;
+    color: black;
+}
+
+nav a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+/* Style paragraph */
+p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #333;
+    text-align: justify;
+    margin: 20px auto;
+    width: 80%;
+}
+/* Center h3 on the page */
+h3 {
+    text-align: center;
+}
+/* Center unordered list */
+ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+ul li {
+    display: inline-block;
+    margin: 0 10px;
+    font-style: italic;
+}
+/* Format paragraphs */
+p {
+    margin: 20px auto;
+    padding: 10px;
+    width: 80%;
+    font-size: 18px;
+    line-height: 1.6;
+    color: #333;
+    text-align: justify;
+}
+/* Change background color to match allAboutrae.css */
+body {
+    background-color: rgb(231, 219, 204); /* Replace with the actual background color from allAboutrae.css */
+}

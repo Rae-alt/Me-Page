@@ -1,0 +1,83 @@
+/* Navigation Bar */
+nav {
+    background-color: #1c9858;
+    overflow: hidden;
+}
+
+nav a {
+    float: center;
+    display: grid;
+    color: #090909;
+    text-align: center;
+    padding: 5px 5px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+nav a:hover {
+    background-color: #be8989;
+    color: black;
+}
+
+nav a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+  
+/* Center h1 on the page */
+h1 {
+    text-align: center;
+}
+/* Center image on the page */
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* Center h2 on the page */
+h2 {
+    text-align: center;
+}
+/* Center anchor on the page */
+a {
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* Table with border and cell borders */
+table {
+    width: 50%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 2px solid #1c9858;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+/* Center table on the page */
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+/* Style paragraph */
+p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #333;
+    text-align: justify;
+    margin: 20px auto;
+    width: 80%;
+}
+/* Set a complementary background color for the body */
+body {
+    background-color: rgb(231, 219, 204);
+}
+.header-main-nav ul{
+    list-style: none;
+  
+}
